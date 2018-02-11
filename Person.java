@@ -7,7 +7,7 @@ public class Person{
         this.firstName = firstName;
         this.lastName = lastName;
     }
-
+    //This comment is added to add conflict
     public void printName(){
         System.out.println(firstName + " " + lastName);
     }
