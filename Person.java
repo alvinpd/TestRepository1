@@ -1,9 +1,14 @@
 public class Person{
-    public Person(){
 
+    private String firstName;
+    private String lastName;
+
+    public Person(String firstName, String lastName){
+        this.firstName = firstName;
+        this.lastName = lastName;
     }
 
     public void printName(){
-        System.out.println("My name is Alvin");
+        System.out.println(firstName + " " + lastName);
     }
 }
